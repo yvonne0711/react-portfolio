@@ -1,10 +1,39 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-      "occupation": "Fry Cook",
-      "location": "A Pineapple Under the Sea"
+      "name": "Job Hunting",
+      "image": "./assets/images/job-hunting.png",
+      "github": "https://github.com/yvonne0711/job-hunting"
+    },
+    {
+      "id": 2,
+      "name": "CFG Grub",
+      "image": "./assets/images/cfg-grub.png",
+      "github": "https://github.com/yvonne0711/CFG-Grub"
+    },
+    {
+      "id": 3,
+      "name": "Team Generator",
+      "image": "./assets/images/team-generator.png",
+      "github": "https://github.com/yvonne0711/team-profile-generator"
+    },
+    {
+      "id": 4,
+      "name": "Weather Dashboard",
+      "image": "./assets/images/weather-dashboard.png",
+      "github": "https://github.com/yvonne0711/weather-dashboard"
+    },
+    {
+      "id": 5,
+      "name": "Code Quiz",
+      "image": "./assets/images/code-quiz.png",
+      "github": "https://github.com/yvonne0711/code-quiz"
+    },
+    {
+      "id": 6,
+      "name": "Bootstrap Portfolio",
+      "image": "./assets/images/code-quiz.png",
+      "github": "https://github.com/yvonne0711/yvonnes-bootstrap-portfolio"
     }
 ]
   
