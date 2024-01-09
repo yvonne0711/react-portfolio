@@ -1,13 +1,9 @@
 import React from 'react';
-import "./Header.css";
+import './style.css';
 
-function Header({ title }) {
+function Header(props) {
   return (
-    <div className="container-fluid">
-      <div className="mb-4 rounded-3 work-header" id="page-title">
-        <h1 className="display-6 fw-bold" style={{ fontSize: '24px' }}>{title}</h1>
-      </div>
-    </div>
+    hi
   );
 }
 
