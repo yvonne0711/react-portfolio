@@ -1,20 +1,48 @@
 import React from 'react';
 import './style.css';
-import Projects from './projects.json';
 
-function Cards(props) {
-    const {name, image, github, description} = props;
+// import images
+import jobHuntingImage from '../../assets/images/job-hunting.png';
+import cfgGrubImage from '../../assets/images/cfg-grub.png';
+import teamGeneratorImage from '../../assets/images/team-generator.png';
+import weatherDashboardImage from '../../assets/images/weather-dashboard.png';
+import codeQuizImage from '../../assets/images/code-quiz.png';
+import bootstrapImage from '../../assets/images/bootstrap-portfolio.png';
+
+function Cards({projects}) {
+    const imageURL = (title) => {
+        switch (title) {
+            case 'Job Hunting':
+                return jobHuntingImage;
+            case 'CFG Grub':
+                return cfgGrubImage;
+            case 'Team Generator':
+                return teamGeneratorImage;
+            case 'Weather Dashboard':
+                return weatherDashboardImage;
+            case 'Code Quiz':
+                return codeQuizImage;
+            case 'Bootstrap Portfolio':
+                return bootstrapImage;
+            default:
+                return null;
+        }
+    };
 
     return (
-        <div className="card" style={{width: "18rem"}}>
-            <img src={image} className="card-img-top" alt={`${name}`}></img>
-            <div className="card-body">
-                <h5 className="card-title">{name}</h5>
-                <p className="card-text">{description}</p>
-                <a href={github} className="btn btn-primary" target='_blank'>Go somewhere</a>
+        <div className="card-container">
+            {projects.map((project) => (
+            <div key={project.id} className="card" style={{width: "18rem"}}>
+                <img src={imageURL(project.name)} className="card-img-top" alt={project.name}></img>
+                <div className="card-body">
+                    <h5 className="card-title">{project.name}</h5>
+                    <p className="card-text">{project.description}</p>
+                    <a href={project.github} className="btn btn-primary" target='_blank'>Github Repo</a>
+                </div>
             </div>
+            ))}
         </div>
     );
 }
 
-export default Cards;
+export default Cards; 

@@ -37,7 +37,7 @@
     {
       "id": 6,
       "name": "Bootstrap Portfolio",
-      "image": "./assets/images/code-quiz.png",
+      "image": "./assets/images/bootstrap-portfolio.png",
       "github": "https://github.com/yvonne0711/yvonnes-bootstrap-portfolio",
       "description": "A portfolio project using Bootstrap."
     }
