@@ -9,22 +9,22 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/react-portfolio">
+              <Link className="nav-link" aria-current="page" to="">
                 Home 
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/react-portfolio/about">
+              <Link className="nav-link" to="about">
                 About 
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/react-portfolio/projects">
+              <Link className="nav-link" to="projects">
                 Projects 
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/react-portfolio/contact">
+              <Link className="nav-link" to="contact">
                 Contact 
               </Link>
             </li>
