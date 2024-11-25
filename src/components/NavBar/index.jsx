@@ -4,12 +4,11 @@ import './style.css';
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand bg-body-secondary">
       <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-3">
             <li className="nav-item">
-              <NavLink className="nav-NavLink" aria-current="page" to="">
+              <NavLink className="nav-NavLink" to="">
                 Home 
               </NavLink>
             </li>
@@ -29,7 +28,6 @@ function NavBar() {
               </NavLink>
             </li>
           </ul>
-        </div>
       </div>
     </nav>
   );
