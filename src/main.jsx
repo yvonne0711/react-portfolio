@@ -10,3 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+// portfolio inspo https://www.pinterest.com/pin/portfolio--65724475805908947/

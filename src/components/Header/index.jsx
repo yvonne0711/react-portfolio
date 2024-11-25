@@ -3,7 +3,11 @@ import './style.css';
 
 function Header(props) {
   return (
-    hi
+    <div>
+      <h1 className="header-title">
+        {props.children}
+      </h1>
+    </div> 
   );
 }
 
