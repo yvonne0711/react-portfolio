@@ -7,7 +7,7 @@ import cfgGrubImage from '../../assets/images/cfg-grub.png';
 import teamGeneratorImage from '../../assets/images/team-generator.png';
 import weatherDashboardImage from '../../assets/images/weather-dashboard.png';
 import codeQuizImage from '../../assets/images/code-quiz.png';
-import bootstrapImage from '../../assets/images/bootstrap-portfolio.png';
+import bootstrapImage from '../../assets/images/bootstrap-portfolio1.png';
 
 function Cards({projects}) {
     const imageURL = (title) => {
@@ -32,12 +32,14 @@ function Cards({projects}) {
     return (
         <div className="card-container">
             {projects.map((project) => (
-            <div key={project.id} className="card" style={{width: "18rem"}}>
-                <img src={imageURL(project.name)} className="card-img-top" alt={project.name}></img>
-                <div className="card-body">
-                    <h5 className="card-title">{project.name}</h5>
-                    <p className="card-text">{project.description}</p>
-                    <a href={project.github} className="btn btn-primary" target='_blank'>Github Repo</a>
+            <div key={project.id} className="card" >
+                <div className='card-content'>
+                    <img src={imageURL(project.name)} className="card-img-top" alt={project.name}></img>
+                    <div className="card-body">
+                        <h5 className="card-title">{project.name}</h5>
+                        <p className="card-text">{project.description}</p>
+                        <a href={project.github} className="btn btn-primary" target='_blank'>Github Repo</a>
+                    </div>
                 </div>
             </div>
             ))}
