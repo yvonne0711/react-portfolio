@@ -4,8 +4,8 @@ import './style.css';
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand bg-body-secondary">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand">
+      <div className="navbar-container">
           <ul className="navbar-nav ms-auto mb-3">
             <li className="nav-item">
               <NavLink className="nav-NavLink" to="">

@@ -12,3 +12,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 // portfolio inspo https://www.pinterest.com/pin/portfolio--65724475805908947/
+
+// template https://www.codecademy.com/workspaces/632385b33a5e6d3f6fa3193a

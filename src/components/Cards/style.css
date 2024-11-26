@@ -3,7 +3,7 @@
 }
 
 .card {
-    margin: 5rem;
+    margin: 4rem;
 }
 
 .card-content {
@@ -27,6 +27,7 @@
 
 .card-title {
     font-size: 2rem;
+    
 }
 
 /* smaller screens, make the card content stack on top of each other */
@@ -43,5 +44,9 @@
 
     .card-body {
         width: 100%;
+    }
+
+    .card {
+        margin: 2rem;
     }
 }
