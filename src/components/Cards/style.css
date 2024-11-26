@@ -3,15 +3,18 @@
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 100%;
+    margin: 5rem;
 }
 
 .card-content {
     width: 100%;
     display: flex;
+}
+
+.card img {
+    width: 50%;
+    object-fit: cover;
+    margin-inline-end: 2rem;
 }
 
 .card-body {
@@ -22,8 +25,23 @@
     align-items: center;
 }
 
-.card img {
-    width: 50%;
-    object-fit: cover;
+.card-title {
+    font-size: 2rem;
 }
 
+/* smaller screens, make the card content stack on top of each other */
+@media(max-width: 900px) {
+    .card-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+}
