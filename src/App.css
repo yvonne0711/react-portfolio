@@ -1,6 +1,7 @@
 #root {
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto;
+  padding: 2rem 2rem 0 2rem; */
   text-align: center;
   font-family: "Noto Sans Mono", monospace;
+  background-color: rgba(248, 243, 213, 0.842);
 }

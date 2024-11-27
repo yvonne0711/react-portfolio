@@ -35,7 +35,7 @@ function Cards({projects}) {
     return (
         <div className="card-container">
             {projects.map((project) => (
-            <div key={project.id} className="card" >
+            <div key={project.id} className="card border-0" >
                 <div className='card-content'>
                     <img src={imageURL(project.name)} className="card-img-top" alt={project.name}></img>
                     <div className="card-body">

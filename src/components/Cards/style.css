@@ -1,20 +1,29 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center (if needed) */
+}
+
 .card-container {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .card {
     margin: 4rem;
+    border: none;
 }
 
 .card-content {
     width: 100%;
     display: flex;
+    background-color: rgba(248, 243, 213, 0.842);
 }
 
 .card img {
     width: 50%;
     object-fit: cover;
-    margin-inline-end: 2rem;
+    /* margin-inline-end: 2rem; */
 }
 
 .card-body {
@@ -31,7 +40,7 @@
 }
 
 /* smaller screens, make the card content stack on top of each other */
-@media(max-width: 900px) {
+@media(max-width: 768px) {
     .card-content {
         flex-direction: column;
         align-items: center;
