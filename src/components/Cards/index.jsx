@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 
 // import images
+import winnieChineseImage from '../../assets/images/winnie-chinese-takeaway.png';
 import jobHuntingImage from '../../assets/images/job-hunting.png';
 import cfgGrubImage from '../../assets/images/cfg-grub.png';
 import teamGeneratorImage from '../../assets/images/team-generator.png';
@@ -12,6 +13,8 @@ import bootstrapImage from '../../assets/images/bootstrap-portfolio1.png';
 function Cards({projects}) {
     const imageURL = (title) => {
         switch (title) {
+            case 'Winnie Chinese Takeaway':
+                return winnieChineseImage;
             case 'Job Hunting':
                 return jobHuntingImage;
             case 'CFG Grub':

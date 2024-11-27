@@ -1,41 +1,48 @@
 [
     {
-      "id": 1,
+      "id": 7,
+      "name": "Winnie Chinese Takeaway",
+      "image": "./assets/images/winnie-chinese-takeaway.png",
+      "github": "https://github.com/yvonne0711/winnie-chinese-takeaway",
+      "description": "This project is a website for a family-run chinese takeaway."
+    },
+    {
+      "id": 6,
       "name": "Job Hunting",
       "image": "./assets/images/job-hunting.png",
       "github": "https://github.com/yvonne0711/job-hunting",
       "description": "This project is an interactive website that allows users to search for programming related jobs in the UK."
     },
     {
-      "id": 2,
+      "id": 5,
       "name": "CFG Grub",
       "image": "./assets/images/cfg-grub.png",
       "github": "https://github.com/yvonne0711/CFG-Grub",
       "description": "A project to browse recipes."
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Team Generator",
       "image": "./assets/images/team-generator.png",
       "github": "https://github.com/yvonne0711/team-profile-generator",
       "description": "This project is a command-line application to generate a HTML file using node.js based off of users' answers with the given prompts."
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Weather Dashboard",
       "image": "./assets/images/weather-dashboard.png",
       "github": "https://github.com/yvonne0711/weather-dashboard",
       "description": "This project is to see the weather outlook for multiple cities."
     },
     {
-      "id": 5,
+      "id": 2,
       "name": "Code Quiz",
       "image": "./assets/images/code-quiz.png",
       "github": "https://github.com/yvonne0711/code-quiz",
       "description": "This project is to see create a timed code quiz on Javascript."
     },
     {
-      "id": 6,
+      "id": 1,
       "name": "Bootstrap Portfolio",
       "image": "./assets/images/bootstrap-portfolio1.png",
       "github": "https://github.com/yvonne0711/yvonnes-bootstrap-portfolio",
