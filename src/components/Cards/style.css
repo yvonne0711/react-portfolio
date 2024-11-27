@@ -1,8 +1,8 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center (if needed) */
+    align-items: center; 
+    margin-top: 2rem;    
 }
 
 .card-container {
@@ -37,6 +37,12 @@
 .card-title {
     font-size: 2rem;
     
+}
+
+.card-body a {
+    color: black;
+    background-color: rgb(255, 166, 0);
+    font-size: 0.9rem;
 }
 
 /* smaller screens, make the card content stack on top of each other */

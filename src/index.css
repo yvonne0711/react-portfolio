@@ -1,4 +1,6 @@
-
+* {
+  border: solid 1px red;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

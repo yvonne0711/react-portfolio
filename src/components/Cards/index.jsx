@@ -41,7 +41,7 @@ function Cards({projects}) {
                     <div className="card-body">
                         <h5 className="card-title">{project.name}</h5>
                         <p className="card-text">{project.description}</p>
-                        <a href={project.github} className="btn btn-primary" target='_blank'>Github Repo</a>
+                        <a href={project.github} className="btn" target='_blank'>Github Repo</a>
                     </div>
                 </div>
             </div>
