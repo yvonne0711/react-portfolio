@@ -45,6 +45,10 @@
     font-size: 0.9rem;
 }
 
+.card-body a:hover {
+    background-color: rgb(255, 166, 0);
+}
+
 /* smaller screens, make the card content stack on top of each other */
 @media(max-width: 768px) {
     .card-content {

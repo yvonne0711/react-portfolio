@@ -1,0 +1,22 @@
+.footer-title {
+    color: black;
+    font-size: 2rem;
+}
+
+footer {
+    /* background-color: rgba(150, 148, 136, 0.555); */
+}
+
+.footer-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact {
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.btn-contact i {
+    font-size: 2rem;
+    color: black;
+}
