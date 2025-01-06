@@ -24,6 +24,12 @@ function About() {
                 <li>HTML, CSS, JavaScript</li>
               </ul>
             </li>
+            <li>
+              Personal portfolio
+            </li>
+            <ul>
+              <li>HTML, CSS, Bootstrap, JavaScript, React</li>
+            </ul>
           </ul>
         </p>
         <p className="other-interests">
