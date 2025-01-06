@@ -7,18 +7,40 @@ function About() {
       <Header>
         About
       </Header>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <section>
+        Hi, I'm Yvonne. I didn't have the opportunity to grow up in a programming world. I'm a past graduate Data Scientist and a graduate of edX's Front-End Web Development bootcamp, discovering my passion for creative problem solving and the science of design.
+        <p className="current-foci">
+          Current foci:
+          <ul className="list">
+            <li>
+              CS50x
+              <ul>
+                <li>C, Arrays, Algorithms</li>
+              </ul>
+            </li>
+            <li>
+              Frontend Mentor Challenges
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p className="other-interests">
+          Other interests:
+          <ul className="list">
+            <li>
+              Social Justice
+            </li>
+            <li>
+              Gaming
+            </li>
+            <li>
+              Baking
+            </li>
+          </ul>
+        </p>
+      </section>
     </div>
   );
 }

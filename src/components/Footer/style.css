@@ -3,9 +3,9 @@
     font-size: 2rem;
 }
 
-footer {
-    /* background-color: rgba(150, 148, 136, 0.555); */
-}
+/* footer {
+    background-color: rgba(150, 148, 136, 0.555);
+} */
 
 .footer-btns {
     display: flex;

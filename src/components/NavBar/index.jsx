@@ -8,13 +8,13 @@ function NavBar() {
       <div className="navbar-container">
         <div className="name-title">Yvonne Wong</div>
         <ul className="navbar-nav nav-buttons">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink className="nav-NavLink" to="">
               Home
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item">
-            <NavLink className="nav-NavLink" to="about">
+            <NavLink className="nav-NavLink" to="/">
               About
             </NavLink>
           </li>
